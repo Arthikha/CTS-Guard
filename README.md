@@ -55,7 +55,8 @@ It includes integrating a mobile/web application for visualization.
 
 ## Block diagram
 
-<img width="669" height="346" alt="image" src="https://github.com/user-attachments/assets/b355d1b3-5fa0-47c1-9d79-e35c50f1208b" />
+<img width="1338" height="692" alt="Screenshot 2025-07-24 134014" src="https://github.com/user-attachments/assets/0f22d4b8-f789-48ca-966d-834ef6d4fb53" />
+
 
 
 
