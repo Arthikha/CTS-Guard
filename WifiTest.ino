@@ -2,8 +2,8 @@
 #include <WebServer.h>
 
 // Replace with your network credentials
-const char* ssid = "AGalaxy";
-const char* password = "2403arsoo1";
+const char* ssid = "ssid";
+const char* password = "pw";
 
 // Assign output variable to GPIO pin
 const int output = 8;
