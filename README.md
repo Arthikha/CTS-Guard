@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-Carpal Tunnel Syndrome (CTS) is a common repetitive strain injury caused by prolonged or improper wrist and finger movement, especially during tasks like typing or using digital devices.  
+Carpal Tunnel Syndrome (CTS) is a common repetitive strain injury caused by prolonged or improper wrist and finger movement, especially during tasks like typing.
 
-This project aims to design a wearable system consisting of a **wristband and a ring** to monitor hand and wrist activity patterns for early detection and prevention of CTS.  
+This project aims to design a wearable system consisting of a **wristband and a ring** to monitor hand and wrist activity patterns for early detection of CTS.  
 
 The system uses **IMU sensors** on both the wrist and finger to detect:  
 
