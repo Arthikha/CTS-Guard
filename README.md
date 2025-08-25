@@ -21,7 +21,7 @@ Additionally, the system may incorporate **hand PPG sensors (e.g., MAX30102)** t
 | Module/Component        | Details                                                                                       |
 |------------------------|-----------------------------------------------------------------------------------------------|
 | **Wristband Module**   | - IMU Sensor: Tracks wrist orientation & motion<br>- ESP32 MCU / ESP32-C3: Processes data and handles BLE/WiFi<br>- Vibration Motor: Haptic feedback for incorrect posture<br>- 401012 Li-Po Battery + Charger: Portable power supply |
-| **Ring Module**        | - IMU Sensor (MPU6050/MPU9250): Detects finger movement<br>- Low-power MCU (ESP32-C3/nRF52832): BLE communication<br>- 401012 Li-Po Battery: Lightweight and wearable |
+| **Ring Module**        | - IMU Sensor (MPU6050/MPU9250): Detects finger movement<br>- 401012 Li-Po Battery: Lightweight and wearable |
 | **Communication**      | - Bluetooth Low Energy (BLE) between ring and wristband<br>- Optionally sends data to external app via BLE/Wi-Fi |
 | **AI & Application**   | - Data collected & labeled for AI model training (risky usage classification)<br>- Optional mobile/web dashboard:<br> &nbsp;&nbsp; • Live posture monitoring<br> &nbsp;&nbsp; • Movement heatmaps<br> &nbsp;&nbsp; • Alert history & feedback |
 | **AI Model Scope (Phase II)** | - Model Type: Decision Tree / SVM / LSTM (TBD)<br>- Input Features:<br> &nbsp;&nbsp; • Wrist angle + duration<br> &nbsp;&nbsp; • Finger motion frequency<br> &nbsp;&nbsp; • PPG parameters<br>- Output: Risk score or posture alert<br>- Model Training: Local/cloud-based using labeled data<br>- Deployment: On-device (threshold logic) or app (model inference) |
