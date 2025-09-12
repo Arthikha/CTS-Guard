@@ -1,4 +1,4 @@
-// BLE - ESP32 is the server
+// BLE - ESP32 and ESP32-c3 is the server
 
 #include <Arduino.h>
 
@@ -40,4 +40,5 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   delay(2000);
+
 }
