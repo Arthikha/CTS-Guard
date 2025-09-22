@@ -18,7 +18,8 @@ Additionally, the system may incorporate **hand PPG sensors (e.g., MAX30102)** t
 
 ## Block diagram
 
-<img width="1660" height="880" alt="BlockDiagram" src="https://github.com/user-attachments/assets/0f6e0f6f-a206-4edd-a5e1-6382896c0023" />
+<img width="1660" height="880" alt="CtsArchi" src="https://github.com/user-attachments/assets/68cb3274-a086-4db8-be15-4209c8919a8b" />
+
 
 
 
