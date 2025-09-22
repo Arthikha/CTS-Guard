@@ -1,4 +1,4 @@
-# 📎 CTS-prevention-device
+# 📎 CTS-Guard
 
 ## Project Overview
 
