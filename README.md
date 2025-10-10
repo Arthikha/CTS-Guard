@@ -29,9 +29,9 @@ Additionally, the system may incorporate **hand PPG sensors (e.g., MAX30102)** t
 
 | Module/Component        | Details                                                                                       |
 |------------------------|-----------------------------------------------------------------------------------------------|
-| **Wristband Module**   | - IMU Sensor: Tracks wrist orientation & motion<br>- ESP32 MCU / ESP32-C3: Processes data and handles BLE/WiFi<br>- Vibration Motor: Haptic feedback for incorrect posture<br>- 401012 Li-Po Battery + Charger: Portable power supply |
-| **Ring Module**        | - IMU Sensor (MPU6050/MPU9250): Detects finger movement<br>- 401012 Li-Po Battery: Lightweight and wearable |
-| **Communication**      | - Bluetooth Low Energy (BLE) between ring and wristband<br>- Optionally sends data to external app via BLE/Wi-Fi |
+| **Wristband Module**   | - IMU Sensor: Tracks wrist orientation & motion<br>- ESP32-C3: Processes data and handles BLE<br>- Vibration Motor: Haptic feedback for incorrect posture<br>- 401012 Li-Po Battery + Charger: Portable power supply |
+| **Ring Module**        | - IMU Sensor (MPU6050/BMI160): Detects finger movement |
+| **Communication**      | - Bluetooth Low Energy (BLE) between ring and wristband |
 
 ---
 
@@ -41,7 +41,7 @@ Additionally, the system may incorporate **hand PPG sensors (e.g., MAX30102)** t
 |------------------------|-----------------------------------------------------------------------------------------|
 | **Mobile Application**  | - Dashboard:<br> &nbsp;&nbsp; • Live posture monitoring<br> &nbsp;&nbsp; • Posture tracked with time<br> &nbsp;&nbsp; • Alert history & feedback |
 | **Database**   | - TimeScaleDB (A Time series database) |
-| **AI Model** | - Model Type: Decision Tree / SVM / LSTM (TBD)<br>- Input Features:<br> &nbsp;&nbsp; • Wrist angle + duration<br> &nbsp;&nbsp; • Finger motion frequency<br> &nbsp;&nbsp; • PPG parameters (Future Implementation)<br>- Output: Risk score or posture alert<br>- Model Training: Local/cloud-based using labeled data<br>- Deployment: On-device (threshold logic) or app (model inference) |
+| **AI Model** | - Model Type: LSTM (TBD) and GAN <br>- Input Features:<br> &nbsp;&nbsp; • Wrist angle + duration<br> &nbsp;&nbsp; • Finger motion frequency<br> &nbsp;&nbsp; • PPG parameters (Future Implementation)<br>- Output: Risk score or posture alert<br>- Model Training: Local/cloud-based using labeled data<br>- Deployment: On-desktop (model inference) |
 
 
 ---
