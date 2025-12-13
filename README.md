@@ -10,18 +10,22 @@ The system uses **IMU sensors** on both the wrist and finger to detect:
 
 - Repetitive finger movements  
 - Static or improper wrist angles  
-- Prolonged usage patterns  
+- Prolonged usage patterns
 
-Additionally, the system may incorporate **hand PPG sensors (e.g., MAX30102)** to monitor circulation and complement movement data. An AI-based classifier can also be used later to analyze collected data to detect CTS risk.
+An AI-based classifier can be used later to analyze collected data to detect CTS risk.
+
+
+---
+
+## Prototype
+<img width="356" height="272" alt="CTSdiag" src="https://github.com/user-attachments/assets/7b5d0402-b6c1-4d12-a442-f633e4c05593" />
+
 
 ---
 
 ## Block diagram
 
-<img width="1780" height="880" alt="CTS" src="https://github.com/user-attachments/assets/9c827d5b-627a-4ae0-9ebf-201ad1d4e61b" />
-
-
-
+<img width="2060" height="820" alt="CTS" src="https://github.com/user-attachments/assets/a42cae6e-4557-4e47-a1a8-5d7e658fc397" />
 
 
 ---
