@@ -1,4 +1,4 @@
-// CTS-Guard – minimal, functional Flutter dashboard
+// CTS-Guard – Flutter dashboard
 // -----------------------------------------------
 // What you get in this single file:
 // 1) BLE connect/subscribe via flutter_blue_plus
